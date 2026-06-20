@@ -1,0 +1,17 @@
+.box-info{
+    padding: 20px 10px;
+}
+.profile-img{
+    height: 300px;
+    width: auto;
+    display: block;
+}
+.info-text-box{
+    background-color: rgb(255, 255, 255,.1);
+    padding: 40px;
+    border-radius: 25px;
+}
+.info-text-box{
+    color: #e9e9e9;
+}
+
