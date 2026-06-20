@@ -1,17 +1,67 @@
 .box-info{
     padding: 20px 10px;
+    border: 1px solid #fff;
 }
 .profile-img{
-    height: 300px;
-    width: auto;
-    display: block;
+    width: 400px;
+    height: auto;
+
+     /* el degradado que se funde con el fondo */
+    -webkit-mask-image: radial-gradient(ellipse, black 29%, transparent 72%);
+    mask-image: radial-gradient(ellipse, black 29%, transparent 72%);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
 }
 .info-text-box{
-    background-color: rgb(255, 255, 255,.1);
+    background-color: rgba(138, 5, 199, 0.1);
     padding: 40px;
     border-radius: 25px;
+    color: #e9e9e9;
+    box-shadow: 3px 4px 12px 1px rgba(227, 108, 238, 0.4);
+    /* box-shadow: 3px 4px 12px 1px rgba(68, 126, 235, 0.4); */
+    transition: all .8s;
+
 }
-.info-text-box{
+.info-text-box span{
+    color: #97e;
+    /* color: rgb(123, 147, 255); */
+}
+.info-text-box:hover{
+    box-shadow: 6px 8px 14px 1px rgba(245, 168, 252, 0.4);
+
+}
+.keyWord{
+    font-size: 20px;
+    font-weight: 600;
+}
+.boxes-info{
+    /* outline: 1px solid red; */
+    padding: 10px 50px;
+
+}
+.titulo-gradiente {
+    background: linear-gradient(90deg, #4b2a6b, #7b3fb5, #a855f7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* fallback para navegadores que no soportan -webkit-text-fill-color */
+}
+.info-card{
     color: #e9e9e9;
 }
+.text-ubi{
+    margin-top: 20PX;
+    color: #acacac;
+}
+
+
+
+
+
+
+
+
+/*Responsive*/
 
