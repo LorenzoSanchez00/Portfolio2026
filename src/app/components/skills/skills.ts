@@ -29,6 +29,8 @@ export class Skills {
     {name: 'Git', icon:'/icons/git.svg', category: 'OTROS'},
     {name: 'GitHub', icon:'/icons/github.svg', category: 'OTROS'},
     {name: 'SQL-Server', icon:'/icons/sqlserver.svg', category: 'BACKEND'},
+    {name: 'Jira', icon:'/icons/jira.svg', category: 'OTROS'},
+
   ]);
 
 }
