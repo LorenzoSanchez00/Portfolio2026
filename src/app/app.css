@@ -1,4 +1,26 @@
 .main-page{
+    position: relative;
     background-color: #111010;
     /* border:1px solid  aqua; */
+}
+
+/* Ellipse 4 */
+.blur-effc{
+    position: absolute;
+    width: 293px;
+    height: 226px; 
+    left: -218px;
+    top: 451px;
+    z-index: 0;
+
+    background: #9662D8;
+    opacity: 0.94;
+    filter: blur(180px);
+}
+app-nav,
+app-info,
+app-skills,
+router-outlet{
+    position: relative;
+    z-index: 1;
 }
