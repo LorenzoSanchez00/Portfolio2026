@@ -1,12 +1,18 @@
 <div class="container justify-content-center align-items-center mt-5">
     <div class="d-flex justify-content-center text-center skills-nav mb-5 mt-5">
-        <a class="" >BACKEND</a>
-        <a class="" >FRONTEND</a>
-        <a class="" >OTROS</a>
+        <a  (click)="defaultSkillActive.set('BACKEND')"
+            [ngClass]="{ 'active' : defaultSkillActive() === 'BACKEND' }" >BACKEND</a>
+
+        <a  (click)="defaultSkillActive.set('FRONTEND')"
+            [ngClass]="{ 'active' : defaultSkillActive() === 'FRONTEND' }" >FRONTEND</a>
+
+
+        <a  (click)="defaultSkillActive.set('OTROS')"
+            [ngClass]="{ 'active' : defaultSkillActive() === 'OTROS' }" >OTROS</a>
     </div>
     <div class="skills-container mb-5">
         <div class="skills-ico d-flex">
-            @for (s of skills(); track s.name) {
+            @for (s of getSkills(); track s.name) {
                 <div class="skill-item d-flex">
                     <img [src]="s.icon" [alt]="s.name">
                     <span>{{ s.name }}</span>

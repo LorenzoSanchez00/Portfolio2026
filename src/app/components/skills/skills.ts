@@ -1,4 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { NgClass } from '@angular/common';
+import { Component, computed, signal } from '@angular/core';
 import { intervalProvider } from 'rxjs/internal/scheduler/intervalProvider';
 
 export interface MySkill {
@@ -9,11 +10,13 @@ export interface MySkill {
 
 @Component({
   selector: 'app-skills',
-  imports: [],
+  imports: [NgClass],
   templateUrl: './skills.html',
   styleUrl: './skills.css',
 })
 export class Skills {
+  defaultSkillActive = signal('BACKEND');
+  getSkills = computed(() => this.skills().filter(t => t.category === this.defaultSkillActive()));
 
   skills =  signal<MySkill[]>([
     {name: '.NET', icon:'/icons/dotnet.svg', category: 'BACKEND'},
