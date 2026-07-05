@@ -19,12 +19,21 @@
                             <span class="badge rounded-pill me-2">{{tech.name}}</span>
                         }
                     </div>
-                    <div class="link">
-                        <a [href]="project.link" target="_blank" class="">
-                            <img src="icons/github.svg" alt="GitHub icon" width="18" height="18" class="me-1">
-                            Ver Proyecto
-                        </a>
-                    </div>
+                    @if(project.link !== '#') {
+                        <div class="link">
+                            <a [href]="project.link" target="_blank" class="">
+                                <img src="icons/github.svg" alt="GitHub icon" width="18" height="18" class="me-1">
+                                Ver Proyecto
+                            </a>
+                        </div>
+                    }@else {
+                        <div class="link">
+                            <a class="disabled-link">
+                                En Desarrollo
+                            </a>
+                        </div>
+                    }
+                    
                 </div>
 
             </div>
