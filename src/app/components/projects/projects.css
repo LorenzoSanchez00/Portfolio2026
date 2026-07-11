@@ -9,17 +9,26 @@
     background-color: rgba(28, 15, 33, .2);
     /* flex-wrap: wrap; */
     width: 60vw;
-    outline: 1px solid rgba(255,255,255,.3);
+    /* outline: 1px solid rgba(255,255,255,.3); */
     border-radius: 25px;
     padding: 8px;
+    gap: 20px;
 }
 
 .project-img{
+    outline: 1px solid rgba(255,255,255,.3);
     border-radius: 25px;
-    width: 300px;
+    max-width: 380px;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
 }
+.project-content{
+    width: 100%;
+    outline: 1px solid rgba(255,255,255,.3);
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
 .tecnologias-box{
     display: flex;
     flex-wrap: wrap;
@@ -63,4 +72,11 @@
     position: relative;
     top: -2px;
     align-items: center;
+}
+.disabled-link{
+    background-color: #7b3fb5 !important;
+}
+.link .disabled-link:hover{
+    cursor: not-allowed;
+    background-color: #7b3fb5;
 }

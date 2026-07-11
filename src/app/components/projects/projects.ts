@@ -35,7 +35,7 @@ export class Projects {
       link:'https://github.com/LorenzoSanchez00/GestionDePresupuesto'},
 
     {name:'App de traduccion de audios', 
-     description:'El usuario puede grabar un audio en español y la aplicación lo traduce a inglés, portugués francés o japonés. Aplicación web hecha en ASP.NET Core MVC que permite grabar la voz del usuario desde el navegador, transcribirla, traducirla a otro idioma y generar un nuevo audio con esa traducción usando ElevenLabs.',
+     description:'El usuario puede grabar un audio en español y la aplicación lo traduce a idiomas diferentes. Sistema hecho con ASP.NET Core MVC, permite grabar la voz del usuario desde el navegador, transcribirla, traducirla a otro idioma y generar un nuevo audio con esa traducción usando ElevenLabs.',
      img:'imgs/project2.jpeg',
      stack:[{name:'HTML'},
             {name:'CSS'},
