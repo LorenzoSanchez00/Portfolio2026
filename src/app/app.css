@@ -17,9 +17,22 @@
     opacity: 0.94;
     filter: blur(180px);
 }
+.blur-effc2{
+    position: absolute;
+    width: 320px;
+    height: 280px; 
+    left: -218px;
+    top: 2650px;
+    z-index: 0;
+
+    background: #9662D8;
+    opacity: 1;
+    filter: blur(180px);
+}
 app-nav,
 app-info,
 app-skills,
+app-mail-form,
 router-outlet{
     position: relative;
     z-index: 1;

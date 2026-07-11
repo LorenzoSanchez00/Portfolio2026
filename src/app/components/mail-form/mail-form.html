@@ -1,1 +1,24 @@
-<p>mail-form works!</p>
+
+<div class="container d-flex">
+    <div class="form-txt col-6">Te acompaño a <span>crear</span> la web ideal que estás necesitando para tu <span>marca personal</span> o <span>negocio.</span></div>
+
+    <form class="mail-form col-6" action="https://formspree.io/f/mnqvkwqvasdfasdfasdfasdfa" method="POST">
+        <div class="form-group p-3">
+            <p class="txt-form">¿Tenés alguna duda sobre software u otros servicios?</p> 
+            <p class="txt-form2 ">Hace tu consulta sin compromiso:</p> 
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="name">Nombre</label>
+            <input class="form-control" type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="email">Email</label>
+            <input class="form-control" type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label" for="message">Mensaje</label>
+            <textarea class="form-control" id="message" name="message" required rows="3"></textarea>
+        </div>
+        <button class="btn" type="submit">Enviar Mensaje</button>
+    </form>
+</div>

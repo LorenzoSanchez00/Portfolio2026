@@ -4,11 +4,12 @@ import { RouterOutlet, RouterLinkActive } from '@angular/router';
 import { NavComponent } from "./components/nav/nav.component";
 import { Skills } from './components/skills/skills';
 import { Projects } from "./components/projects/projects";
+import { MailForm } from "./components/mail-form/mail-form";
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, NavComponent, InfoComponent, Skills, Projects],
+  imports: [RouterOutlet, NavComponent, InfoComponent, Skills, Projects, MailForm],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
