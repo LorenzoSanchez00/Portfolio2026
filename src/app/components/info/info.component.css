@@ -91,3 +91,14 @@
 
 /*Responsive*/
 
+@media (max-width: 1080px){
+    .boxes-info{
+        width: 90%;
+    }
+}
+
+@media (max-width: 780px){
+    .boxes-info{
+        width: 100%;
+    }
+}
