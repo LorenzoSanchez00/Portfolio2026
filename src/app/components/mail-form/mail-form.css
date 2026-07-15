@@ -55,3 +55,39 @@
     background-color: #7b3fb5;
     color: #f9f9f9;
 }
+
+
+/* ... tu CSS base ... */
+
+@media (max-width: 1140px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-txt{
+        width: 100%;
+        text-align: center;
+    }
+
+    .mail-form{
+        width: 90%;
+    }
+}
+
+@media (max-width: 576px) {
+    .form-txt{
+        font-size: 2.2rem;
+        padding: 10px;
+    }
+
+    .form-txt span{
+        font-size: 2.4rem;
+    }
+
+    .mail-form{
+        width: 100%;
+        padding: 20px 15px;
+    }
+}
