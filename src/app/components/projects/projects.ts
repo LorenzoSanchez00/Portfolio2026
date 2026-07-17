@@ -48,7 +48,7 @@ export class Projects {
 
     {name:'Landing Page Ecommerce', 
      description:'Landing Page para un reconocido mentor y creador de contenidos sobre ecommerce.',
-     img:'imgs/project3.jpeg',
+     img:'imgs/projectimg.jpeg',
      stack:[{name:'HTML'},
             {name:'CSS'},
             {name:'Bootstrap'},
