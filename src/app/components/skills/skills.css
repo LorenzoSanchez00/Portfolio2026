@@ -20,6 +20,12 @@
     transition: all .4s;
 }
 
+.skills-nav .mid-btn{
+    border-radius: 0px;
+        border-left: 1px solid rgba(255,255,255,.3);
+        border-right: 1px solid rgba(255,255,255,.3);
+}
+
 .skills-nav a:hover{
     cursor: pointer;
     color: #9662D8;
@@ -74,6 +80,9 @@
     .skills-nav{
         border: none;
         gap: 20px;
+    }
+    .skills-nav .mid-btn{
+        border-radius: 40px;
     }
     .skills-nav a{
         display: inline-flex;

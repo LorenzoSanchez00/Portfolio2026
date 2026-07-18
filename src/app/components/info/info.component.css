@@ -103,3 +103,25 @@
         width: 100%;
     }
 }
+
+@media (max-width: 480px) {
+    #home{
+        width: 100% !important;
+
+    }
+    .boxes-info{
+        width: 100%;
+        padding: 10px 20px;
+    }
+    .box-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .profile-img{
+        width: 300px;
+    }
+    .info-text-box{
+        width: 100%;
+        padding: 20px;
+    }
+}

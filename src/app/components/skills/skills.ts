@@ -33,6 +33,16 @@ export class Skills {
     {name: 'GitHub', icon:'icons/github.svg', category: 'OTROS'},
     {name: 'SQL-Server', icon:'icons/sqlserver.svg', category: 'BACKEND'},
     {name: 'Jira', icon:'icons/jira.svg', category: 'OTROS'},
+    {name: 'Figma', icon:'icons/figma.svg', category: 'OTROS'},
+    {name: 'Elevenlabs (IA)', icon:'icons/elevenlabs.svg', category: 'OTROS'},
+    {name: 'Python', icon:'icons/python.svg', category: 'BACKEND'},
+    {name: 'Claude (IA)', icon:'icons/claude.svg', category: 'OTROS'},
+    {name: 'Entity Framework', icon:'icons/entityframeworkcore.svg', category: 'BACKEND'},
+    {name: 'OpenAI (IA)', icon:'icons/openai-light.svg', category: 'OTROS'},
+    {name: 'Photoshop', icon:'icons/photoshop.svg', category: 'OTROS'},
+    {name: 'Dapper', icon:'icons/dapper.svg', category: 'BACKEND'},
+    {name: 'Azure', icon:'icons/azure.svg', category: 'OTROS'},
+
 
   ]);
 
