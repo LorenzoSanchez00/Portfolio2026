@@ -78,6 +78,7 @@
 
 @media (max-width: 768px){
     .skills-nav{
+        width: 100%;
         border: none;
         gap: 20px;
     }
